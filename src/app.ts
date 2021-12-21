@@ -191,7 +191,6 @@ class ProjectItem extends Component<HTMLUListElement, HTMLLIElement> implements 
 
 }
 
-
 // project list class
 class ProjectList extends Component<HTMLDivElement, HTMLElement> implements DragTarget {
     assignedProjects: Project[];
